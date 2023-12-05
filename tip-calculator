@@ -13,4 +13,4 @@ total_bill = bill_amount_float + tip_amount_float
 
 cost_per_head = int(total_bill) / int(number_of_people)
 
-print(f"Each person should pay {round(cost_per_head,2)}")
+print(f"Each person should pay $ {round(cost_per_head,2)}")
