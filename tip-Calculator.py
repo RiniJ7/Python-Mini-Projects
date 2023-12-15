@@ -1,3 +1,5 @@
+//Uses the BODMAS or PEMDAS Rule to calculate tips
+
 print("Welcome to the tip calculator!")
 
 bill_amount = input("What is the total bill amount? ")
