@@ -1,4 +1,4 @@
-# Python-
+# Python- Mini Projects
 
 1.Band Name Generator
 Using **print** and **input **function to generate a band name.
