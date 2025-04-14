@@ -21,3 +21,22 @@ ____/______/______/______/______/_____"=.o|o_.--""___/______/______/______/____
 /______/______/______/______/______/______/______/______/______/______/[Treasure Island]
 *******************************************************************************
 ''')
+print("Welcome to treasure Island.")
+print("Your mission is to find the treasure.")
+navigation = input("Press 'left' or 'right' to navigate in this game: ")
+if navigation =='left':
+    action = input("Choose actions 'swim' or 'wait' to navigate in this game: ")
+    if action == 'wait':
+        door = input("Choose between 'red' or 'blue' or 'yellow' door to navigate in this game: ")
+        if (door == 'blue'):
+            print("Eaten by beasts \n Game Over!")
+        elif (door == 'red'):
+            print("Burned by fire \n Game over!")
+        elif (door == 'yellow'):
+            print("You Win!")
+        else: 
+            print("Game Over!")
+    else:
+        print("Attacket by Trout \n Game Over!")    
+else: 
+    print("Fall into a hole! \n Game Over!")
