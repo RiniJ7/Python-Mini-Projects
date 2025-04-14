@@ -1,4 +1,4 @@
-//Uses the BODMAS or PEMDAS Rule to calculate tips
+# Uses the BODMAS or PEMDAS Rule to calculate tips
 
 print("Welcome to the tip calculator!")
 
