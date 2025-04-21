@@ -11,3 +11,6 @@ elif (chance >=2):
     print (friends[3])
 else:
      print (friends[4])
+
+#or using random.choice
+print(random.choice(friends))
