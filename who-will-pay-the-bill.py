@@ -13,4 +13,4 @@ else:
      print (friends[4])
 
 #or using random.choice
-print(random.choice(friends))
+#print(random.choice(friends))
