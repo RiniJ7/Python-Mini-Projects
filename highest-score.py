@@ -17,3 +17,9 @@ for score in student_scores:
     if score > max_score:
         max_score= score
 print(max_score)
+
+#counting all numbers from 1 to 100
+total = 0
+for number in range (1,101):
+    total += number
+print (total)
